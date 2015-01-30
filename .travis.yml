@@ -1,3 +1,5 @@
+sudo: false  # use containter-based infrastructure
+
 language: groovy
 
 jdk:
@@ -8,10 +10,10 @@ env:
     - TZ="Australia/Hobart" JAVA_OPTS="-Xmx1G -Xms512m -XX:PermSize=64m -XX:MaxPermSize=512m"
 
 before_install:
-    - sudo apt-get install tzdata
-    - sudo dpkg-reconfigure tzdata
+#    - sudo apt-get install tzdata
+#    - sudo dpkg-reconfigure tzdata
 
 notifications:
   email:
     - jkburges@utas.edu.au
-    - dnahodil@utas.edu.au
+#    - dnahodil@utas.edu.au
