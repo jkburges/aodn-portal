@@ -12,7 +12,7 @@ OpenLayers.Util.extend(OpenLayers.Lang.en, {
     navigationButtonNext: '${label} <span class="fa fa-lg fa-angle-double-right"></span>',
     navigationButtonPrevious: '<span class="fa fa-lg fa-angle-double-left"></span> ${label}',
 
-    stepHeader: '<span class="stepTitle">Step ${stepNumber}:</span> ${stepDescription}',
+    stepHeader: '<span class="stepTitle">Win ${stepNumber}:</span> ${stepDescription}',
     step1Description: 'Select a Data Collection',
     step2Description: 'Create a Subset',
     step3Description: 'Download',
