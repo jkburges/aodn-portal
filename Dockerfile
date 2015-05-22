@@ -10,5 +10,4 @@ WORKDIR /app
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 RUN bash ./grailsw refresh-dependencies
-CMD bash ./grailsw run-app
-
+CMD bash ./grailsw -Dapp.context=/ run-app
